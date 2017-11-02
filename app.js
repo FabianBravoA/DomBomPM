@@ -18,4 +18,14 @@ window.onload = function() {
             inputDiv.appendChild(pAlert);
         }
     }
+
+    var demoButton = document.getElementById("demo");
+    demoButton.onclick = function() {
+        alert("Me apretaste fuertón");
+    }
+    var currentColor = 0;
+    var colorArray = ["green", "blue", "red", "yellow", "deeppink", "white", "grey", "orange"];
+    demoButton.onmouseover = function() {
+        demoButton.style.color = colorArray[currentColor++ % colorArray.length];
+    }
 }
