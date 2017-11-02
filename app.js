@@ -1,6 +1,9 @@
 window.onload = function() {
     var textInput = document.getElementById("ingresa");
+    //Evento para el input
     textInput.oninput = function() {
-        console.log("textInput text > " + textInput.value);
+        if (isNaN(parseInt(textInput.value))) {
+            alert("No es un número");
+        }
     }
 }
