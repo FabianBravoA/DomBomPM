@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+    font-family: 'Baloo', cursive;
+    color: #1F1E2F;
+    width: 50%;
+    margin: 0 auto;
+}
+
+html {
+    background-color: #E9C7FB;
+}
+
+h1 {
+    background-color: #DF2389;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #35C3C1;
+}
+
+div:nth-child(2) {
+    padding: 20px;
+    padding-left: 230px;
+}
+
+div:nth-child(3) {
+    padding: 20px;
+    padding-left: 230px;
+}
